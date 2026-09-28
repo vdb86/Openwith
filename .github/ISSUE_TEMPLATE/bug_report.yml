@@ -1,0 +1,64 @@
+name: 🐞 Bug report
+description: Something in Open With isn't working the way it should.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please search [existing issues](../issues) first to avoid duplicates.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly. What did you see?
+      placeholder: When I open a link, Open With...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: The link should have opened in...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we make the bug happen?
+      placeholder: |
+        1. Open the app
+        2. Tap ...
+        3. See error
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device model
+      placeholder: e.g. Samsung Galaxy S23, Google Pixel 7
+    validations:
+      required: true
+  - type: input
+    id: android-version
+    attributes:
+      label: Android version
+      placeholder: e.g. Android 14
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: Open With version
+      description: Find it under General > About Open With, or on the Google Play listing.
+      placeholder: e.g. 1.0
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recording (optional)
+      description: Drag and drop images or a short video here if it helps show the problem.
+    validations:
+      required: false
