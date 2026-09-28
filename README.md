@@ -94,27 +94,24 @@ A rule can list several things to react to ("these websites or these files"), ea
 
 ---
 
-<!--
 ## 📸 Screenshots
 
 <div align="center">
 
 <img src="Screenshots/Chooser.jpg" alt="The chooser over a messaging app, with the countdown ring on the preselected browser" width="30%" />
-<img src="Screenshots/Work%20rule.jpg" alt="A rule sending links from Slack and Teams to the work browser" width="30%" />
-<img src="Screenshots/Rules.jpg" alt="The Rules tab with five rules and their automatic names" width="30%" />
+<img src="Screenshots/Work%20rule.jpg" alt="A rule sending links opened from Slack and Discord to Chrome" width="30%" />
+<img src="Screenshots/Rules.jpg" alt="The Rules tab with six rules and their automatic names" width="30%" />
 
-<img src="Screenshots/Content%20types.jpg" alt="The Content types tab: links, files, maps, calls and shares, each with its own default app" width="30%" />
-<img src="Screenshots/PDF%20documents.jpg" alt="The PDF documents page with a signing app as the default, opening without asking" width="30%" />
-<img src="Screenshots/Navigation.jpg" alt="The chooser in list mode on a map link, offering navigation apps" width="30%" />
+<img src="Screenshots/Content%20types.jpg" alt="The Content types tab: links, streams and files, each with its own default app" width="30%" />
+<img src="Screenshots/Long%20press.jpg" alt="The chooser with an app held down: open once, always open this website here, or just for a while" width="30%" />
+<img src="Screenshots/Navigation.jpg" alt="The chooser in list mode on a map location, offering Maps, Waze and Yandex Maps" width="30%" />
 
 <img src="Screenshots/Appearance.jpg" alt="The Appearance page with the live preview of a restyled chooser" width="30%" />
 <img src="Screenshots/Help.jpg" alt="Why isn't this working?, with setup checks and the steps for this phone" width="30%" />
 
 </div>
 
-(Uncomment this section, and add "---" after it, once the eight screenshots are in Screenshots/.
-The shot list is in Playstore.md, "Screenshots".)
--->
+---
 
 ## 🔒 Your privacy comes first
 
