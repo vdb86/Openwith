@@ -24,6 +24,19 @@ Android decides which app opens your links, files and shares, and since Android 
 
 ---
 
+## 💼 Made for people who run their work from their phone
+
+Calls, site visits, clients on three messengers. Set it once and stop choosing.
+
+- **Work links in your work browser** - links from Slack or Teams open in the browser you're signed into for work, everything else in your personal one.
+- **Addresses straight into navigation** - map pins and addresses from messages and email open in the navigation app you drive with.
+- **Contracts and invoices straight into your signing or PDF app** - no viewer in between, no "open with" list.
+- **A pause only where it counts** - "Always ask" before your bank or payment pages, and nothing in the way everywhere else.
+
+Fewer taps, fewer wrong apps, more time for the work itself.
+
+---
+
 ## 💬 Feedback, bug reports & feature requests
 
 This repository is the home for **reporting issues and requesting features** for Open with.
@@ -86,13 +99,21 @@ A rule can list several things to react to ("these websites or these files"), ea
 
 <div align="center">
 
-<img src="Screenshots/Chooser.jpg" alt="The chooser at the bottom of the screen with a countdown on the preselected app" width="30%" />
-<img src="Screenshots/Content%20types.jpg" alt="The Content types tab listing links, files, schemes and shares" width="30%" />
-<img src="Screenshots/Rules.jpg" alt="The Rules tab with several rules and their automatic names" width="30%" />
+<img src="Screenshots/Chooser.jpg" alt="The chooser over a messaging app, with the countdown ring on the preselected browser" width="30%" />
+<img src="Screenshots/Work%20rule.jpg" alt="A rule sending links from Slack and Teams to the work browser" width="30%" />
+<img src="Screenshots/Rules.jpg" alt="The Rules tab with five rules and their automatic names" width="30%" />
+
+<img src="Screenshots/Content%20types.jpg" alt="The Content types tab: links, files, maps, calls and shares, each with its own default app" width="30%" />
+<img src="Screenshots/PDF%20documents.jpg" alt="The PDF documents page with a signing app as the default, opening without asking" width="30%" />
+<img src="Screenshots/Navigation.jpg" alt="The chooser in list mode on a map link, offering navigation apps" width="30%" />
+
+<img src="Screenshots/Appearance.jpg" alt="The Appearance page with the live preview of a restyled chooser" width="30%" />
+<img src="Screenshots/Help.jpg" alt="Why isn't this working?, with setup checks and the steps for this phone" width="30%" />
 
 </div>
 
-(Uncomment this section, and add "---" after it, once the screenshots are in Screenshots/.)
+(Uncomment this section, and add "---" after it, once the eight screenshots are in Screenshots/.
+The shot list is in Playstore.md, "Screenshots".)
 -->
 
 ## 🔒 Your privacy comes first
@@ -130,6 +151,7 @@ If something reads wrong in your language, please [report it](../../issues/new?t
 - Works on **Android 10 and newer**, on phones, tablets and Android TV.
 - **Free, with an optional one-time upgrade.** Web links, website rules (including "never offer", "always ask", "always open in the browser" and the app a link came from), the chooser and its colours, backup, Diagnostics, custom tab support and Android TV are free. Open with Pro, a single purchase with no subscription, adds every other content type, the countdown, per-type settings, any app as a target, temporary choices, file name rules, your own file types, and the chooser's extra actions and looks.
 - An app that already holds a website, or a phone maker's own settings, can get in first. "Why isn't this working?" tells you which, and how to fix it.
+- **Using a work profile?** Apps inside it can't be reached from your personal profile, and links tapped there never arrive. Install Open with in the work profile too: each side has its own rules.
 - Never shows up in your recent apps.
 
 ---
