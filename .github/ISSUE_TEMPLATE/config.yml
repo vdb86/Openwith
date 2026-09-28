@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Browse existing issues & requests
+    url: https://github.com/vdb86/openwith/issues
+    about: Search first - your bug or idea may already be reported. Add a 👍 or comment instead of opening a duplicate.

@@ -1,0 +1,39 @@
+name: 💡 Feature request
+description: Suggest a new feature or an improvement for Open With.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Please search [existing requests](../issues?q=is%3Aissue+label%3Aenhancement) first - if it already exists, add a 👍 or a comment instead of opening a duplicate.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: What are you trying to do that's hard or impossible today?
+      placeholder: I often want to... but currently I have to...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Describe the feature you'd like
+      description: What should Open With do?
+      placeholder: It would be great if...
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered (optional)
+      placeholder: I also thought about...
+    validations:
+      required: false
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Mockups or examples (optional)
+      description: Drag and drop images, or link to how another app does it.
+    validations:
+      required: false
